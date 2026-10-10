@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+.navbar {
+    background-color: #1e293b;
+    color: #fff;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.navbar a:hover, .navbar a.active {
+    color: #ffffff;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+.grid-4 {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    flex: 1;
+}
+
+.BillingPage {
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    flex: 1;
+}
+.card h3 {
+    margin-top: 0;
+    font-size: 14px;
+    color: #64748b;
+}
+.card .value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f172a;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+th {
+    background-color: #f8fafc;
+    color: #475569;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary { background-color: #2563eb; color: #fff; }
+.btn-success { background-color: #16a34a; color: #fff; }
+.btn-warning { background-color: #d97706; color: #fff; }
+.btn-danger { background-color: #dc2626; color: #fff; }
+.badge {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.badge-danger { background: #fee2e2; color: #991b1b; }
+.badge-warning { background: #fef3c7; color: #92400e; }
+.badge-success { background: #dcfce7; color: #166534; }
+.alert {
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.alert-success { background: #dcfce7; color: #166534; }
+.alert-error { background: #fee2e2; color: #991b1b; }
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 13px; }
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+}
+
